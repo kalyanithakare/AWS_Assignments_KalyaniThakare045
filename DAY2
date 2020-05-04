@@ -1,0 +1,58 @@
+In the cloud, you get resources as a service.
+They had categorized it ,which is known as the Levels of abstraction.
+
+        saas(Software as a service)
+        For example- Tableau,splunk,storm.Like ms office availabiity is nothing but a software as a service. So whatever softwares used on the industry level are get provided by the cloud as sw as a service.
+
+        paas[Platform as a service]
+        It is nothing but a developer facing service means services which are get used by the developer in a day to day life like the hosted database.
+        You get any of the database installed by just clicking next next and again it is get managed by the aws.
+        Also we get hadoop as a service. and also different IDE's by using which we can develop.
+
+        Iaas[Infrastructure as a service]
+        It includes the raw computing resources.
+        It includes :
+        1] Vm - ec2
+        2] disks(volume)
+        ---------------------------------------------------------------------------------------------------------------------------
+
+S3
+
+        S3 service- it is the storage engine.
+        Storage engine means ,I can store any type of the data there as an object .
+        This means customers of all sizes and industries can use it to store and protect any amount of data for a range of use cases, such as websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.
+        How Amazon s3 works?
+
+There is the concept under s3,which is known as the BUCKET
+BUCKET:
+
+        An Amazon S3 bucket is a public cloud storage resource available in Amazon Web Services (AWS) Simple Storage Service (S3), an object storage offering.
+        Amazon S3 buckets, which are similar to file folders, store objects, which consist of data and its descriptive metadata. Bucket is like a folder .
+        we make folder under that we store file into that .same thing we can make folder inside the bucket .It is on you upto what level you have to go.
+        Here we can also host our website.
+        -----------------------------------------------------------------------------------------------------------------------------------
+
+How to create Bucket?
+
+Steps:
+
+        Go to services>type S3(scalable storage in the cloud)
+        create bucket>Give any name to bucket suppose I give demo>Remaining things keep as it is>click on create bucket
+
+It give error,as it already exisits why is it so?
+we had not create bucket before,Then why it is saying that it already exists?
+when you create bucket ,bucket name is always region wise like global. In global dropdown it will say that s3 does not require the global selection.
+So, this name should be unique across the aws.
+
+        Now give the name as vita-demo-20 > click on create bucket.
+        Now our bucket is ready
+
+        Now click on that vita-demo-20
+        In that we have different options :
+        1] create folder
+        2)Upload
+        Now let upload some file
+        click on the upload
+        How to make a folder?
+        click on create folder> give the folder name as demo >save
+
